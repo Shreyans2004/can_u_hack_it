@@ -7,7 +7,7 @@ import { staggerContainer, textVariant } from '../utils/motion';
 import { TypingText } from '../components';
 
 const Hero = () => (
-  <section className={`${styles.yPaddings} sm:pl-16 pl-6`}>
+  <section className={`${styles.yPaddings} flex justify-center`}>
     <motion.div
       variants={staggerContainer}
       initial="hidden"
@@ -17,7 +17,7 @@ const Hero = () => (
     >
       <TypingText
         title="BitByte - The Programming Club, IIITDMJ Presents"
-        textStyles="text-[24px]"
+        textStyles="text-md sm:text-lg md:text-[24px]"
       />
       <div className="flex justify-center items-center flex-col relative z-10">
         <motion.h1 variants={textVariant(1.1)} className={styles.heroHeading}>

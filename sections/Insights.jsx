@@ -3,7 +3,6 @@
 import { motion } from 'framer-motion';
 
 import styles from '../styles';
-import { insights } from '../constants';
 import { staggerContainer } from '../utils/motion';
 import { InsightCard, TitleText, TypingText } from '../components';
 
@@ -14,15 +13,13 @@ const Insights = () => (
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
-      className={`${styles.innerWidth} mx-auto flex flex-col`}
+      className={`${styles.innerWidth} mx-auto flex flex-col items-center gap-8`}
     >
-      <TypingText title="| Insight" textStyles="text-center" />
-      <TitleText title={<>Insight about metaverse</>} textStyles="text-center" />
-      <div className="mt-[50px] flex flex-col gap-[30px]">
-        {insights.map((item, index) => (
-          <InsightCard key={`insight-${index}`} {...item} index={index + 1} />
-        ))}
-      </div>
+      <TitleText title={<>Sponspors</>} textStyles="text-center" />
+      {/* To be revealed soon... */}
+      <motion.p className="text-white text-[20px]">
+        To be revealed soon...
+      </motion.p>
     </motion.div>
   </section>
 );
