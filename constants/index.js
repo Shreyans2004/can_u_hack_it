@@ -1,7 +1,7 @@
 export const exploreWorlds = [
   {
     id: 'world-1',
-    imgUrl: '/planet-02.png',
+    imgUrl: '/event-02.jpg',
     title: 'Session with ICPC World Finalists',
   },
   {
@@ -11,7 +11,7 @@ export const exploreWorlds = [
   },
   {
     id: 'world-3',
-    imgUrl: '/planet-03.png',
+    imgUrl: '/event-03.jpg',
     title: 'The AlgoQuiz',
   },
 ];
