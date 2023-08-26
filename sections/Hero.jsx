@@ -19,9 +19,9 @@ const Hero = () => (
         title="BitByte - The Programming Club, IIITDMJ Presents"
         textStyles="text-md sm:text-lg md:text-[24px]"
       />
-      <div className="flex justify-center items-center flex-col relative z-10">
+      <div className="flex justify-center items-center flex-col relative py-4 z-10">
         <motion.h1 variants={textVariant(1.1)} className={styles.heroHeading}>
-          CodeRumble
+          <img src="/maintext.png" className="w-10/12 sm:w-9/12" />
         </motion.h1>
       </div>
 
