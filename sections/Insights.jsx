@@ -15,10 +15,9 @@ const Insights = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto flex flex-col items-center gap-8`}
     >
-      <TitleText title={<>Sponspors</>} textStyles="text-center" />
-      {/* To be revealed soon... */}
+      <TitleText title={<>Sponsors</>} textStyles="text-center" />
       <motion.p className="text-white text-[20px]">
-        To be revealed soon...
+        <img src="/favicon.ico" />
       </motion.p>
     </motion.div>
   </section>
