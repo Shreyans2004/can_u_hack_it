@@ -33,4 +33,9 @@ export const socials = [
     url: '/linkedin.svg',
     link: 'https://www.linkedin.com/company/bitbyte-tpc/',
   },
+  {
+    name: 'instagram',
+    url: '/instagram.svg',
+    link: 'https://www.instagram.com/bitbyte.tpc/',
+  },
 ];

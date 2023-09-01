@@ -30,7 +30,13 @@ const Hero = () => (
         variants={textVariant(1.3)}
         className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]"
       >
-        <span className="font-normal text-[16px] text-white">Register</span>
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSd-c8XR0wr7hcFAGQdie9-Tnhhb6_oshteo4Eik7s6C-DbwNw/viewform"
+        >
+          <span className="font-normal text-[16px] text-white">Register</span>
+        </a>
       </motion.button>
     </motion.div>
   </section>
