@@ -17,7 +17,7 @@ const Insights = () => (
     >
       <TitleText title={<>Sponsors</>} textStyles="text-center" />
       <motion.p className="text-white text-[20px]">
-        <img src="/favicon.ico" />
+        <img src="/senior.ico" />
       </motion.p>
     </motion.div>
   </section>
