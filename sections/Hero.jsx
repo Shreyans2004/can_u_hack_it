@@ -21,7 +21,7 @@ const Hero = () => (
       />
       <div className="flex justify-center items-center flex-col relative py-4 z-10">
         <motion.h1 variants={textVariant(1.1)} className={styles.heroHeading}>
-          <img src="/maintext.png" className="w-10/12 sm:w-9/12" />
+          <img src="https://i.ibb.co/Lr2wvc8/Screenshot-2023-09-04-111006.png" className="w-10/12 sm:w-9/12" />
         </motion.h1>
       </div>
 
@@ -35,7 +35,7 @@ const Hero = () => (
           rel="noreferrer"
           href="https://docs.google.com/forms/d/e/1FAIpQLSd-c8XR0wr7hcFAGQdie9-Tnhhb6_oshteo4Eik7s6C-DbwNw/viewform"
         >
-          <span className="font-normal text-[16px] text-white">Register</span>
+          <span className="font-normal text-[16px] text-white">Registration opening soon...</span>
         </a>
       </motion.button>
     </motion.div>

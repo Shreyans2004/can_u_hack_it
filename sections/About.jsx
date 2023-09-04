@@ -19,19 +19,22 @@ const About = () => (
         variants={fadeIn('up', 'tween', 1, 1)}
         className="mt-[8px] font-normal px-10 sm:text-[26px] text-[20px] text-center text-secondary-white"
       >
-        <span className="font-extrabold text-white">CodeRumble</span> is a new
-        the ultimate event for aspiring programmers to experience the
-        exhilarating world of competitive programming. As a mock{' '}
-        <span className="font-extrabold text-white">ICPC Regional Contest</span>
-        , we bring you a stimulating challenge that will push your coding skills
-        to the limit. Unlock your{' '}
+        <span className="font-extrabold text-white">Can you hack it?</span> is
+        the internal hackathon of IIIT Jabalpur taking place on
         <span className="font-extrabold text-white">
-          problem-solving potential
+          {' '}
+          10th day of September
         </span>{' '}
-        , tackle challenging algorithms, and rise to the top! Be a part of the
-        coding extravaganza -{' '}
-        <span className="font-extrabold text-white">CodeRumble</span> awaits
-        your coding prowess!
+        and is organised by{' '}
+        <span className="font-extrabold text-white">
+          {' '}
+          The Programming Club (TPC)
+        </span>{' '}
+        run by students of our institute. This will bring together developers
+        and problem solvers from diverse backgrounds to collaborate on
+        innovative projects. The event offers a unique and challenging learning
+        experience for participants, providing them the opportunity to work with
+        the latest technologies and expand their skills.
       </motion.p>
 
       <motion.img
