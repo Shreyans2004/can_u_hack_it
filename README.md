@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-# can_u_hack_it
-=======
 
->>>>>>> d
+# can_u_hack_it1
+
